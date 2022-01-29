@@ -1,0 +1,9 @@
+spring:
+  applicaiton:
+    name: springboot-app01
+  cloud:
+    kubernetes:
+      config:
+        sources:
+          - name: ${spring.applicaiton.name}
+            namespace: demo-project
