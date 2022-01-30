@@ -8,3 +8,4 @@ spring:
         sources:
           - name: ${spring.applicaiton.name}-${spring.profiles.active}
             namespace: demo-project
+
