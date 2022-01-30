@@ -1,6 +1,7 @@
-cloud:
-  kubernetes:
-    config:
-      sources:
-        - name: ${spring.applicaiton.name}-uat
-          namespace: demo-project
+spring:
+  cloud:
+    kubernetes:
+      config:
+        sources:
+          - name: ${spring.applicaiton.name}-uat
+            namespace: demo-project
