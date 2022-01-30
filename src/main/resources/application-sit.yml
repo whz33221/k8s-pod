@@ -1,0 +1,6 @@
+cloud:
+  kubernetes:
+    config:
+      sources:
+        - name: ${spring.applicaiton.name}-sit
+          namespace: demo-project

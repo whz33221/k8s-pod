@@ -1,0 +1,6 @@
+cloud:
+  kubernetes:
+    config:
+      sources:
+        - name: ${spring.applicaiton.name}-prd
+          namespace: demo-project
