@@ -1,5 +1,10 @@
 spring:
   applicaiton:
     name: springboot-app01
-  profiles:
-    active: local
+
+  cloud:
+    kubernetes:
+      config:
+        sources:
+          - name: ${spring.applicaiton.name}.${spring.profiles.active}
+            namespace: demo-project

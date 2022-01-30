@@ -11,6 +11,7 @@ public class TestController {
     @Autowired
     private TestConfig testConfig;
 
+
     @GetMapping("/hello")
     public String hello(){
         return testConfig.getMessage();

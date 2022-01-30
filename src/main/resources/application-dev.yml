@@ -1,7 +1,0 @@
-spring:
-  cloud:
-    kubernetes:
-      config:
-        sources:
-          - name: ${spring.applicaiton.name}-dev
-            namespace: demo-project
